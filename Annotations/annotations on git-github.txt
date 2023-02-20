@@ -1,0 +1,62 @@
+windows			unix
+cd			ls / ls -a - permite ver arquivos ocutos
+mkdir			mkdir
+del / rmdir		rm -rf
+------------
+objetos
+
+BLOBS
+TREES
+COMMITS
+------------
+
+-iniciar o GIT
+git init
+
+//na primeira que você for fazer um commit, é necessário configurar o autor com o cod
+git config --global user.email "email"
+git config --global user.name "nome"
+
+// foi criado um arquivo "Strogonoff.md" na pasta C:\workspace\livro-receitas
+
+-iniciar o versionamento
+git add *
+git commit -m "commit inicial"
+
+-criar um commit
+/git commit
+
+Criando um repositório
+
+"""
+git init cria um repositório ná pasta/diretório selecionado
+
+tracked ou untracked
+
+untraked são os arquivos que o git ainda não tem ciência
+
+tracked são os arquivos que o git ainda tem ciência
+
+					  tracked
+untrecked		unmodified	  modified	       staged
+    |			    |		      |		  	  |
+    |Adiciona o arquivo------------------------------------------>|
+    |			    |Edita o arquivo->|			  |
+    |			    |		      |"Stage" o arquivo->|
+    |<------Remove o arquivo|		      |			  |
+    |			    |<----------------------------  Commit|
+    |			    |		      |			  |
+
+Servidor 
+-Remote repository
+
+Ambiente de desenvolvimento
+-Working directory
+-Staging area
+-Local repository
+
+"""
+
+GitHub
+git remote -v // para ver o fetch e push
+
